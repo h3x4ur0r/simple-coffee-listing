@@ -25,13 +25,13 @@ export default function Card({ item }) {
         <div className="align-middle text-sm">
           {item.rating ? (
             <img
-              src="src\assets\Star_fill.svg"
+              src="src/assets/Star_fill.svg"
               alt=""
               className="inline align-bottom"
             />
           ) : (
             <img
-              src="src\assets\Star.svg"
+              src="src/assets/Star.svg"
               alt=""
               className="inline align-bottom"
             />

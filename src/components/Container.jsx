@@ -53,7 +53,7 @@ export default function Container() {
       }
     >
       <img
-        src="src\assets\vector.svg"
+        src="src/assets/vector.svg"
         alt=""
         className="absolute -right-16 -z-10 md:right-20 xl:right-52"
       />
