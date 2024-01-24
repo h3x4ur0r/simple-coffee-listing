@@ -1,4 +1,6 @@
 import PropTypes from "prop-types";
+import BlankStar from "../assets/Star.svg";
+import FilledStar from "../assets/Star_fill.svg";
 
 export default function Card({ item }) {
   return (
@@ -24,17 +26,9 @@ export default function Card({ item }) {
       <div className="flex justify-between items-center">
         <div className="align-middle text-sm">
           {item.rating ? (
-            <img
-              src="src/assets/Star_fill.svg"
-              alt=""
-              className="inline align-bottom"
-            />
+            <img src={FilledStar} alt="" className="inline align-bottom" />
           ) : (
-            <img
-              src="src/assets/Star.svg"
-              alt=""
-              className="inline align-bottom"
-            />
+            <img src={BlankStar} alt="" className="inline align-bottom" />
           )}
           <span className="text-[#FEF7EE] ml-1">
             {item.rating || "No ratings"}{" "}

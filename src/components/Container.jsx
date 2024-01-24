@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import Button from "./Button";
 import Card from "./Card";
+import Vector from "../assets/vector.svg";
 import { useEffect, useState } from "react";
 import { nanoid } from "nanoid";
 
@@ -53,7 +54,7 @@ export default function Container() {
       }
     >
       <img
-        src="src/assets/vector.svg"
+        src={Vector}
         alt=""
         className="absolute -right-16 -z-10 md:right-20 xl:right-52"
       />
